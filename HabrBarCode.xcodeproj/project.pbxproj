@@ -11,18 +11,8 @@
 		78EAC11619A69F9A00E54802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EAC11519A69F9A00E54802 /* ViewController.swift */; };
 		78EAC11919A69F9A00E54802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC11719A69F9A00E54802 /* Main.storyboard */; };
 		78EAC11B19A69F9A00E54802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC11A19A69F9A00E54802 /* Images.xcassets */; };
-		78EAC12719A69F9A00E54802 /* HabrBarCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EAC12619A69F9A00E54802 /* HabrBarCodeTests.swift */; };
+		78EAC13119A69FB400E54802 /* chpok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC13019A69FB400E54802 /* chpok.mp3 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78EAC12119A69F9A00E54802 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78EAC10619A69F9900E54802 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78EAC10D19A69F9900E54802;
-			remoteInfo = HabrBarCode;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		78EAC10E19A69F9900E54802 /* HabrBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabrBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,20 +21,11 @@
 		78EAC11519A69F9A00E54802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78EAC11819A69F9A00E54802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78EAC11A19A69F9A00E54802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		78EAC12019A69F9A00E54802 /* HabrBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabrBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78EAC12519A69F9A00E54802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78EAC12619A69F9A00E54802 /* HabrBarCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabrBarCodeTests.swift; sourceTree = "<group>"; };
+		78EAC13019A69FB400E54802 /* chpok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chpok.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78EAC10B19A69F9900E54802 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78EAC11D19A69F9A00E54802 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				78EAC11019A69F9900E54802 /* HabrBarCode */,
-				78EAC12319A69F9A00E54802 /* HabrBarCodeTests */,
 				78EAC10F19A69F9900E54802 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				78EAC10E19A69F9900E54802 /* HabrBarCode.app */,
-				78EAC12019A69F9A00E54802 /* HabrBarCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +58,7 @@
 				78EAC11519A69F9A00E54802 /* ViewController.swift */,
 				78EAC11719A69F9A00E54802 /* Main.storyboard */,
 				78EAC11A19A69F9A00E54802 /* Images.xcassets */,
+				78EAC13019A69FB400E54802 /* chpok.mp3 */,
 				78EAC11119A69F9900E54802 /* Supporting Files */,
 			);
 			path = HabrBarCode;
@@ -88,23 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				78EAC11219A69F9A00E54802 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78EAC12319A69F9A00E54802 /* HabrBarCodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				78EAC12619A69F9A00E54802 /* HabrBarCodeTests.swift */,
-				78EAC12419A69F9A00E54802 /* Supporting Files */,
-			);
-			path = HabrBarCodeTests;
-			sourceTree = "<group>";
-		};
-		78EAC12419A69F9A00E54802 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78EAC12519A69F9A00E54802 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,24 +92,6 @@
 			productReference = 78EAC10E19A69F9900E54802 /* HabrBarCode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78EAC11F19A69F9A00E54802 /* HabrBarCodeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78EAC12D19A69F9A00E54802 /* Build configuration list for PBXNativeTarget "HabrBarCodeTests" */;
-			buildPhases = (
-				78EAC11C19A69F9A00E54802 /* Sources */,
-				78EAC11D19A69F9A00E54802 /* Frameworks */,
-				78EAC11E19A69F9A00E54802 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78EAC12219A69F9A00E54802 /* PBXTargetDependency */,
-			);
-			name = HabrBarCodeTests;
-			productName = HabrBarCodeTests;
-			productReference = 78EAC12019A69F9A00E54802 /* HabrBarCodeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,10 +103,6 @@
 				TargetAttributes = {
 					78EAC10D19A69F9900E54802 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					78EAC11F19A69F9A00E54802 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 78EAC10D19A69F9900E54802;
 					};
 				};
 			};
@@ -179,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				78EAC10D19A69F9900E54802 /* HabrBarCode */,
-				78EAC11F19A69F9A00E54802 /* HabrBarCodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,15 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EAC13119A69FB400E54802 /* chpok.mp3 in Resources */,
 				78EAC11919A69F9A00E54802 /* Main.storyboard in Resources */,
 				78EAC11B19A69F9A00E54802 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78EAC11E19A69F9A00E54802 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78EAC11C19A69F9A00E54802 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78EAC12719A69F9A00E54802 /* HabrBarCodeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78EAC12219A69F9A00E54802 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78EAC10D19A69F9900E54802 /* HabrBarCode */;
-			targetProxy = 78EAC12119A69F9A00E54802 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		78EAC11719A69F9A00E54802 /* Main.storyboard */ = {
@@ -277,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -314,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,40 +262,6 @@
 			};
 			name = Release;
 		};
-		78EAC12E19A69F9A00E54802 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HabrBarCodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabrBarCode.app/HabrBarCode";
-			};
-			name = Debug;
-		};
-		78EAC12F19A69F9A00E54802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HabrBarCodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabrBarCode.app/HabrBarCode";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,14 +281,7 @@
 				78EAC12C19A69F9A00E54802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		78EAC12D19A69F9A00E54802 /* Build configuration list for PBXNativeTarget "HabrBarCodeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78EAC12E19A69F9A00E54802 /* Debug */,
-				78EAC12F19A69F9A00E54802 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
